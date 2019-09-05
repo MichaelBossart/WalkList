@@ -1,0 +1,225 @@
+.App{
+  padding-top: 5.5rem;
+  display:flex;
+  background-image:url('./images/loginBackground.jpg');
+  
+}
+.navbar{
+  background-color: 	#ee1515 !important; 
+}
+
+a {
+  color:#f2f2f2 !important;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.links{
+  display:flex;
+  justify-content: space-between;
+}
+
+.card{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  transition: .5s;
+}
+.card:hover{
+  transform: scale(1.09);
+}
+
+.image-button{
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-bottom: 15px;
+outline: none;
+}
+.cardHeader{
+  display: flex;
+height: 30px;
+width: 253px;
+background:#D33E43;
+padding-left:8px;
+padding-top:2px;
+color: white;
+}
+
+.card-img-top{
+  max-height: 150px;
+  max-width:150px;
+}
+
+.PokemonName{
+  padding-left: 8px;
+}
+
+.walkBox{
+  display: flex;
+  height: 250px;
+  width:800px;
+  background: grey;
+}
+
+.pokemonImage{
+  height: 250px;
+  width: 250px;
+  background: #D33E43;
+}
+
+.pokemonName{
+height: 75px;
+width: 200px;
+background: green;
+}
+
+
+.wrapper{
+  height:100vh;
+  width: 100vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url('./images/pogoBackground.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -5.5rem
+/* loginBackground.jpg  other background but this one looks better */
+}
+
+.form-wrapper{
+  width: 400px;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  align-content: space-around;
+  border: black solid 2px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+
+}
+.LogIn{
+  color:#CC0000;
+  text-align: center;
+  padding:20px;
+}
+
+.creatAccount{
+  color:#CC0000;
+  text-align: center;
+  padding:20px;
+}
+
+
+
+.Email{
+  display:flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 27px;
+  padding-right:27px;
+}
+.Password{
+  display:flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 27px;
+  padding-right:27px;
+}
+
+.WalkCard-box{
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  background: linear-gradient(rgba(176,224,230,1), rgba(255,255,255,.8)) ; /* this might be too much*/
+}
+
+.WalkButton{
+  border-radius: 15px;
+  background: #CC0000;
+  color: white;
+  outline: none;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  
+}
+.WalkButton-1{
+  border-radius: 15px;
+  background: #CC0000;
+  color: white;
+  outline: none;
+}
+
+.walkListImage{
+  height:175px;
+  width:175px;
+}
+
+.WalkCard-header{
+  height:40px;
+  width:600px;
+  display: flex;
+  align-items: center;
+  padding-left:20px;
+  padding-top:20px;
+}
+
+.WalkCard-name{
+  
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.bottomOfCard{
+  justify-content: center;
+}
+
+
+.loginButtons{ /* */
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top:50px;
+  border-radius: 15px;
+  
+}
+
+
+.loginButton{
+  border-radius: 10px;
+  background: #CC0000;
+  color: white;
+  outline: none;
+      padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.distance{
+  padding-left:20px;
+}
+
+
+.counter_button{
+  height: 50px;
+ width: 100px;
+}
+.Back_button{
+  border-radius: 10px;
+  background: #CC0000;
+  color: white;
+  outline: none;
+  padding-top:10px;
+  padding-right:20px;
+  padding-bottom:10px;
+  padding-left:20px;
+
+}
